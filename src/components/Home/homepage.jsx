@@ -1,3 +1,4 @@
+/* eslint-disable react/react-in-jsx-scope */
 import Category from './categories';
 const Home = () => {
   const categories = [
@@ -29,7 +30,6 @@ const Home = () => {
   ];
 
   return (
-    // eslint-disable-next-line react/react-in-jsx-scope
     <div>
       <Category categories={categories} />
     </div>
