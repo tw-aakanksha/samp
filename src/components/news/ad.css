@@ -1,0 +1,11 @@
+.ad {
+  display: flex;
+  flex-direction: row;
+
+  flex-wrap: wrap;
+}
+
+.ad img {
+  max-height: 848px;
+  max-width: 2000px;
+}

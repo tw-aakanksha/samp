@@ -1,0 +1,47 @@
+/* 
+.navigation{
+    display: grid;
+    grid-template-columns: 1fr 600px 1fr ;
+    grid-gap: 10px;
+    padding: 10px 60px;
+   
+}
+
+
+.logo-container img{
+    height: 80px;
+    width: 80px;
+       
+}
+
+.nav-links-container{
+    
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px;
+    
+}
+
+
+
+
+
+
+
+
+.openbtn {
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #111;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+  }
+  
+  .openbtn:hover {
+    background-color:#444;
+  }
+
+
+
+   */

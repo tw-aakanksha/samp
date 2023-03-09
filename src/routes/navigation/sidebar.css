@@ -1,0 +1,50 @@
+.sidebar {
+  position: absolute;
+  background-color: #c9bbcf;
+  color: #22577e;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 220px;
+  transform: translate(-100%);
+  transition: all 0.4s;
+}
+
+.nav-link {
+  padding: 10px;
+  cursor: pointer;
+  color: #22577e;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.nav-link:hover {
+  color: #22577e;
+}
+
+.sidebar li {
+  padding: 30px 20px;
+  list-style: none;
+  border-bottom: solid #22577e 1px;
+  display: flex;
+  gap: 10px;
+}
+
+.sidebar--open {
+  transform: translate(0%);
+}
+
+.sidebar li:hover {
+  background-color: #898aa6;
+  color: #22577e;
+  cursor: pointer;
+}
+
+.close {
+  color: white;
+  cursor: pointer;
+}
+
+.close:hover {
+  color: white;
+}

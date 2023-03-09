@@ -1,0 +1,37 @@
+.tool-bar {
+  background-color: #fbc5c5;
+  color: black;
+  display: flex;
+  gap: 1rem;
+  padding: 10px;
+  align-items: center;
+  font-size: 30px;
+  text-decoration: none;
+}
+
+.btnheader {
+  font-size: 30px;
+  color: #22577e;
+}
+
+.btnheader:hover {
+  text-decoration: none;
+  color: #22577e;
+}
+
+.heading {
+  font-size: 60px;
+  margin-top: 1%;
+  text-align: center;
+  margin-left: 25%;
+  color: #22577e;
+}
+
+.notification {
+  color: #22577e;
+}
+
+.shoppingcart {
+  color: #22577e;
+  margin-left: 250px;
+}
