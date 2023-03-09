@@ -29,6 +29,7 @@ const Home = () => {
   ];
 
   return (
+    // eslint-disable-next-line react/react-in-jsx-scope
     <div>
       <Category categories={categories} />
     </div>
